@@ -1,0 +1,21 @@
+<div id="img">
+  <div  id="lgbox">
+    <form [formGroup]="myform" (ngSubmit)="loginfn();">
+      <div class="form-group">
+        <label>User :</label>
+        <select class="form-control" formControlName="limit">
+          <option [selected]=true value="">Please select the user type</option>
+          <option value="5">Basic</option>
+          <option value="10">Premium</option>  
+        </select>
+        <div *ngIf="alertval" class="text-danger">Please choose an option...</div>
+      </div> 
+      
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">LOGIN</button>
+        
+      </div>
+      
+      </form>
+  </div>
+</div>

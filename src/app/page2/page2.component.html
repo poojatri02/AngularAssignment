@@ -1,0 +1,70 @@
+<div id="background">
+<div id="logoutdiv"><button (click)="logoutfn()" id="logout" class="btn btn-success" >Logout</button></div>
+<form [formGroup]="myform" (ngSubmit)="savedata()">
+<div class="box" style="display:block"><input type="text" class="input" placeholder="Enter IP address" formControlName="url1"><button type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(0)">-</button></div>
+<div *ngIf="myform.controls.url1.touched" class="text-center">
+        <span class="text-danger" *ngIf="myform.controls.url1.hasError('required')">Ip adderss is required.</span>
+        <span class="text-danger" *ngIf="myform.controls.url1.hasError('pattern')">Invalid Ip address</span>
+        
+</div>   
+
+<div class="box" style="display:none"><input type="text" class="input"  placeholder="Enter IP address" formControlName="url2"><button type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(1)">-</button><br>
+<div *ngIf="myform.controls.url2.touched" class="text-center">
+        <span class="text-danger" *ngIf="myform.controls.url2.hasError('required')">Ip adderss is required.</span>
+        <span class="text-danger" *ngIf="myform.controls.url2.hasError('pattern')">Invalid Ip address</span>
+</div> 
+</div> 
+<div class="box" style="display:none"><input type="text" class="input" placeholder="Enter IP address" formControlName="url3"><button type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(2)">-</button><br>
+<div *ngIf="myform.controls.url3.touched" class="text-center" >
+        <span class="text-danger" *ngIf="myform.controls.url3.hasError('required')">Ip adderss is required.</span>
+        <span class="text-danger" *ngIf="myform.controls.url3.hasError('pattern')">Invalid Ip address</span>
+</div> 
+</div> 
+<div class="box" style="display:none"><input type="text" class="input" placeholder="Enter IP address" formControlName="url4"><button type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(3)">-</button><br>
+    <div *ngIf="myform.controls.url4.touched" class="text-center" >
+            <span class="text-danger" *ngIf="myform.controls.url4.hasError('required')">Ip adderss is required.</span>
+            <span class="text-danger" *ngIf="myform.controls.url4.hasError('pattern')">Invalid Ip address</span>
+    </div> 
+
+</div>
+<div class="box" style="display:none"><input type="text" class="input" placeholder="Enter IP address" formControlName="url5"><button  type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(4)">-</button><br>
+    <div *ngIf="myform.controls.url5.touched" class="text-center" >
+            <span class="text-danger" *ngIf="myform.controls.url5.hasError('required')">Ip adderss is required.</span>
+            <span class="text-danger" *ngIf="myform.controls.url5.hasError('pattern')">Invalid Ip address</span>
+    </div>  
+</div>
+<div class="box" style="display:none"><input type="text" class="input" placeholder="Enter IP address" formControlName="url6"><button  type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(5)">-</button><br>
+    <div *ngIf="myform.controls.url6.touched" class="text-center" >
+            <span class="text-danger" *ngIf="myform.controls.url6.hasError('required')">Ip adderss is required.</span>
+            <span class="text-danger" *ngIf="myform.controls.url6.hasError('pattern')">Invalid Ip address</span>
+    </div> 
+</div>
+<div class="box" style="display:none"><input type="text" class="input" placeholder="Enter IP address" formControlName="url7"><button  type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(6)">-</button><br>
+    <div *ngIf="myform.controls.url7.touched" class="text-center" >
+            <span class="text-danger" *ngIf="myform.controls.url7.hasError('required')">Ip adderss is required.</span>
+            <span class="text-danger" *ngIf="myform.controls.url7.hasError('pattern')">Invalid Ip address</span>
+    </div> 
+</div>
+<div class="box" style="display:none"><input type="text" class="input" placeholder="Enter IP address" formControlName="url8"><button  type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(7)">-</button><br>
+    <div *ngIf="myform.controls.url8.touched" class="text-center" >
+            <span class="text-danger" *ngIf="myform.controls.url8.hasError('required')">Ip adderss is required.</span>
+            <span class="text-danger" *ngIf="myform.controls.url8.hasError('pattern')">Invalid Ip address</span>
+    </div> 
+</div>
+<div class="box" style="display:none"><input type="text" class="input" placeholder="Enter IP address" formControlName="url9"><button  type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(8)">-</button><br>
+    <div *ngIf="myform.controls.url9.touched" class="text-center" >
+            <span class="text-danger" *ngIf="myform.controls.url9.hasError('required')">Ip adderss is required.</span>
+            <span class="text-danger" *ngIf="myform.controls.url9.hasError('pattern')">Invalid Ip address</span>
+    </div>  
+</div>
+<div class="box" style="display:none"><input type="text" class="input" placeholder="Enter IP address" formControlName="url10"><button  type="button" class="positive" (click)="addBox();">+</button><button type="button" class="negative" (click)="removebox(9)">-</button><br>
+    <div *ngIf="myform.controls.url10.touched" class="text-center" >
+            <span class="text-danger" *ngIf="myform.controls.url10.hasError('required')">Ip adderss is required.</span>
+            <span class="text-danger" *ngIf="myform.controls.url10.hasError('pattern')">Invalid Ip address</span>
+    </div> 
+</div>
+<button id="submit" [disabled]="!myform.dirty"> {{buttonvalue}} </button>
+</form>
+</div>
+
+

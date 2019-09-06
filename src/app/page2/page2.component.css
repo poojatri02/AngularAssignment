@@ -1,0 +1,45 @@
+#background{
+    background:linear-gradient(to right,skyblue,grey);
+    height:100vw;
+    width:100%;
+    padding-top: 20px;
+  }
+
+#logoutdiv{
+  width:100vw;
+  text-align:right;
+}
+#logout{ 
+  margin-right:20px;
+}
+.box{
+  text-align: center;
+}
+.box input{
+  background: rgba(125,125,125,0.5);
+  border:1px solid black;
+}
+.box input:hover{
+  background: none;
+}
+.box button{
+  border:0px;
+  background:none;
+  color:green;
+  font-size: 24px;
+  font-weight: bold;
+}
+.box button:focus{
+ outline: none;
+}
+#submit{
+  display: block;
+  border:1px solid black;
+  background:rgba(12,225,15,0.7);
+  margin-top:20px;
+  margin-left:39%;
+}
+#submit:disabled{
+  background:rgba(125,125,125,1);
+  color:black;
+}

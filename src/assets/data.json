@@ -1,0 +1,119 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "limit": "10"
+    }
+  ],
+  "Basic-IPaddresses": [
+    {
+      "url1": "fghfghfghf",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "url1": "234234",
+      "id": 3
+    },
+    {
+      "url1": "765765",
+      "id": 4
+    },
+    {
+      "url1": "327486324",
+      "id": 5
+    },
+    {
+      "url1": "sdfss",
+      "id": 6
+    },
+    {
+      "url2": "sdsfff",
+      "id": 7
+    },
+    {
+      "url1": "ddggfgf",
+      "id": 8
+    },
+    {
+      "url1": "fgfhf",
+      "url3": "dtdtf",
+      "url5": "ggguhu",
+      "id": 9
+    },
+    {
+      "url1": "sdfdsfsd",
+      "id": 10
+    },
+    {
+      "url1": "mhhbkj",
+      "id": 11
+    },
+    {
+      "url1": "gaf",
+      "id": 12
+    },
+    {
+      "url1": "sdgsd",
+      "id": 13
+    },
+    {
+      "url1": "10.20.30.40",
+      "id": 14
+    },
+    {
+      "url1": "120.80.30.50",
+      "id": 15
+    },
+    {
+      "url1": "dfjdahf",
+      "id": 16
+    },
+    {
+      "url1": "ddd",
+      "id": 17
+    },
+    {
+      "url1": "sdhhsafhgf",
+      "id": 18
+    },
+    {
+      "url1": "safjgsf",
+      "id": 19
+    }
+  ],
+  "Premium-IPaddresses": [
+    {
+      "id": 1,
+      "address": "178.34.56.56"
+    },
+    {
+      "url1": "werjhewr",
+      "url7": "waekhwer",
+      "id": 2
+    },
+    {
+      "url1": "sdfdsf",
+      "id": 3
+    },
+    {
+      "url2": "20.30.10.40",
+      "url8": "20.10.30.40",
+      "url9": "srs",
+      "url10": "et",
+      "id": 4
+    },
+    {
+      "url1": "101.201.30.80",
+      "url2": "ghgh",
+      "id": 5
+    },
+    {
+      "url1": "12.40.80.50",
+      "url2": "120.30.50.70",
+      "id": 6
+    }
+  ]
+}
